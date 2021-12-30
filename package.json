@@ -1,0 +1,28 @@
+{
+  "name": "vite-vue3-admin1",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --open",
+    "pro": "vite --mode prduction --open",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.11.0",
+    "axios": "^0.24.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "pinia": "^2.0.8",
+    "vue": "^3.2.25",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.3",
+    "@vitejs/plugin-vue": "^2.0.0",
+    "naive-ui": "^2.23.1",
+    "typescript": "^4.4.4",
+    "vfonts": "^0.1.0",
+    "vite": "^2.7.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
